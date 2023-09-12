@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri ,sans-serif;
+}
+
+
+.hero{
+    background-image: url(laptop.jpg);
+    /* filter: brightness(50%); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    position: relative;
+}
+
+
+.logo{
+    position: absolute;
+    left:40px;
+    top:20px;
+    cursor: default;
+
+}
+
+.logo h1{
+    color: white;
+    font-size: 38px;
+}
+
+.logo:hover h1{
+    color: rgb(235, 163, 7);
+   
+}
+
+.mid-text{
+    position: absolute;
+    top:250px;
+    text-align: center;
+    left:20%;
+    color: white;
+    width: 60%;
+}
+
+.mid-text h2{
+    font-size: 50px;
+    color:rgb(235, 163, 7) ;
+    cursor: default;
+}
+p{
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.mid-btn{
+    margin: 20px;
+    height: auto;
+    position: relative;
+   
+    
+    
+   
+}
+
+.mid-btn .one{
+    position: relative;
+    padding: 10px;
+    margin-right: 6%;
+    width: 120px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color:transparent;
+    border: 1px solid black;
+    /* height: 60px; */
+    border-radius: 20px;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+   
+}
+
+.mid-btn .two{
+    position: relative;
+    padding: 10px;
+    /* margin-right: 8%; */
+    width: 120px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color:transparent;
+    border: 1px solid black;
+    /* height: 60px; */
+    border-radius: 20px;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+    
+}
+
+.mid-btn span{
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    width: 0px;
+    position: absolute;
+    overflow: hidden;
+    top:0;
+    bottom:0;
+    left:0;
+    /* right: 0; */
+    transition: .5s ease;
+    border-radius: 20px;
+    z-index: -1;
+    border: none;
+
+
+}
+
+.mid-btn :hover span{
+    width: 100%;
+    
+    
+
+}
+
+.main
+    {
+    position: absolute;
+    right: 10px;
+    display: flex;
+   justify-content: space-evenly;
+   width: 40%;
+   top:22px;
+
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+ul li a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: .5s ease;
+  
+    
+}
+
+
+ul li a:hover{
+    color:rgb(235, 163, 7) ;
+    border-bottom:1px solid rgb(235, 163, 7)  ;
+    
+}
+
+
+
+
+
+/* Section2 */
+
+
+.section2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(70, 62, 62);
+    position: absolute;
+    
+}
+
+
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px;
+    
+    /* background-color: rgb(255, 255, 255); */
+    
+   
+   
+}
+.box{
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 80vh;
+    width: 30%;
+    box-shadow: 10px 8px 10px 5px;
+    border-radius: 16px;
+    transition: .5s ease;
+   
+}
+
+
+
+
+
+.image1{
+    background-image: url(robo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: auto;
+    border-radius: 24px;
+    margin: 10px;
+}
+
+.image-text{
+    text-align: center;
+}
+
+.image2{
+    background-image: url(chip.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: auto;
+    border-radius: 24px;
+    margin: 10px;
+}
+
+.image-text{
+    text-align: center;
+}
+
+.image3{
+    background-image: url(room.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: auto;
+    border-radius: 24px;
+    margin: 10px;
+}
+
+.image-text{
+    text-align: center;
+}
+
+#box1 ,#box2 ,#box3{
+    background-color: rgb(216, 193, 193);
+
+}
+
+#box1 ,#box2 ,#box3 :hover{
+    transition: 5s ease;
+   
+}
+
+
+
+/* Section3 */
+
+
+
+.gray-area{
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+.picture{
+    position: absolute;
+    right: 40px;
+    top:100px;
+    border-radius: 24px;
+}
+
+.pic-text{
+    width: 50%;
+    position: absolute;
+    top:14%;
+    left:26px;
+}
+
+
+
+
+
+/* Footer */
+
+footer{
+    position: relative;
+    color:white;
+}
+.last-Section{
+   
+  
+   
+    height: 50vh;
+    width: auto;
+    background-color: black;
+   
+
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 26px;
+    cursor: pointer;
+   
+}
+
+.foot h3{
+    cursor: default;
+    color: rgb(235, 163, 7) ;
+}
+
+.d i{
+    color: rgb(235, 163, 7) ;
+}
+
+.foot p{
+    font-size: 16px;
+}
+
+
+
+/* Footer 2 */
+
+.foot2{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(41, 39, 39);
+}
+
+.foot2 p{
+    color: rgb(146, 135, 135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
